@@ -8,6 +8,7 @@ end
 
 post '/team' do
   @team_name = params[:name]
+  @coach = 
   erb :team
 end
 
