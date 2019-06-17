@@ -12,6 +12,7 @@ post '/team' do
   @point_guard = params[:pg]
   @shooting_guard = params[:sg]
   @power_forward = params[:pf]
+  @small_forward = params[:sf]
   erb :team
 end
 
